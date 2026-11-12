@@ -1,0 +1,7 @@
+SELECT c.nome, c.idade, l.nome AS loja
+FROM cliente c
+LEFT JOIN loja l ON c.id_cliente = l.id_cliente
+WHERE c.idade = (
+    SELECT MAX(idade)
+    FROM cliente
+);
