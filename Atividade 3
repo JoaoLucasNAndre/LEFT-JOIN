@@ -1,0 +1,3 @@
+SELECT c.*, l.nome AS loja, l.comprou, l.valor
+FROM cliente c
+LEFT JOIN loja l ON c.id_cliente = l.id_cliente;
