@@ -1,0 +1,1 @@
+O LEFT JOIN mostra todos os registros da tabela da esquerda, mesmo sem correspondência. Já o INNER JOIN mostra somente os registros que possuem correspondência nas duas tabelas.
