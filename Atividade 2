@@ -1,0 +1,3 @@
+Vantagens: permite mostrar todos os registros de uma tabela, inclusive os que não possuem correspondência na outra.
+
+Desvantagens: pode gerar resultados com valores NULL e consultas mais complexas quando várias tabelas são relacionadas.
