@@ -1,0 +1,4 @@
+SELECT c.nome, l.nome AS loja, l.valor
+FROM cliente c
+LEFT JOIN loja l ON c.id_cliente = l.id_cliente
+ORDER BY c.nome ASC;
